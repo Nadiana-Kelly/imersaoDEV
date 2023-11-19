@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://c.wallhere.com/photos/87/9c/League_of_Legends_kda_Riot_Games_Ahri_Ahri_League_of_Legends_Evelynn_Evelynn_League_of_Legends_Seraphine_League_of_Legends-1955533.jpg!d");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid 6a5acd;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th,
+tr,
+td {
+    border: solid 1px #6a5acd;
+    color: white;
+}
+
+button {
+    background-color: #ba55d3;
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 2px;
+}
