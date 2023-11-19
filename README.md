@@ -1,4 +1,4 @@
-# imersaoDEV
+# ImersaoDEV 💻
 
 ### AULA 01 👨‍🚀
 
