@@ -1,0 +1,105 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://independente.com.br/wp-content/uploads/2020/04/Cinema-Cultura.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body > img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+p{
+    size: 16px;
+    color:#ffffff;
+    font-family: "Roboto Mono", monospace;
+}
+
+.formulario{
+    /* position: absolute; */
+    /* top: %; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
+    color:white;
+    font-family: "Roboto Mono", monospace;
+    border-radius:5px;
+}
+
+#formulario button {
+    background-color: #c00; /* Cor vermelha para o botão */
+    color: #fff; /* Cor do texto (branco) */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 7px;
+}
+
+#formulario button:hover {
+    background-color: #900; /* Altera a cor no hover para um tom mais escuro */
+}
+
+#formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none; /* Remove as bordas padrão */
+    border-bottom: 1px solid #fff; /* Adiciona uma borda inferior branca */
+    background-color: transparent; /* Fundo transparente para aparecer a linha branca */
+    color: #fff; /* Cor do texto (branco) */
+    outline: none;
+}
+
+#formulario input:focus {
+    border-bottom: 1px solid grey; /* Adiciona uma borda inferior personalizada ao focar */
+    background-color: #000000;
+}
+
+#formulario input::placeholder {
+    color: #ccc; /* Cor do placeholder em cinza claro */
+}
+
+.formulario-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+

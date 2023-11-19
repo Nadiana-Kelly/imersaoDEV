@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluraflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Aluraflix - Filmes de Romance</h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <div class="formulario-div">
+        <form id="formulario" class="formulario">
+            <label for="urlFilme">URL da Imagem:</label>
+            <input type="text" id="urlFilme" required placeholder="Insira o link da imagem">
+            <input type="text" id="nomeFilme" required placeholder="Insira o nome do filme">
+            <button type="button" onclick="adicionarFilme()">Adicionar Filme</button>
+        </form>
+    </div>
+    <div style="display: flex; justify-content:center; gap:20px; flex-wrap: wrap" id="desenhaBanner">
+
+    </div>
+
+    <script src="aluraflix.js"></script>
+</body>
+</html>
